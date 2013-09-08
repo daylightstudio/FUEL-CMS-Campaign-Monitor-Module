@@ -16,7 +16,7 @@ Type in:
 
 ### MANUAL
 1. Download the zip file from GitHub:
-[https://github.com/daylightstudio/FUEL-CMS-Google-Keywords-Module](https://github.com/daylightstudio/FUEL-CMS-campaign_monitor-Module)
+[https://github.com/daylightstudio/FUEL-CMS-Campaign-Monitor-Module](https://github.com/daylightstudio/FUEL-CMS-Campaign-Monitor-Module)
 
 2. Create a "campaign_monitor" folder in fuel/modules/ and place the contents of the campaign_monitor module folder in there.
 
