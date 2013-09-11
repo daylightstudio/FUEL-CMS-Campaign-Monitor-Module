@@ -6,7 +6,7 @@ There are a couple ways to install the module. If you are using GIT you can use 
 to create a submodule:
 
 ### USING GIT
-1. Open up a Terminal window, "cd" to your FUEL CMS installation then type type in: 
+1. Open up a Terminal window, "cd" to your FUEL CMS installation then type in: 
 Type in:
 ``php index.php fuel/installer/add_git_submodule git://github.com/daylightstudio/FUEL-CMS-Google-Keywords-Module.git campaign_monitor``
 
@@ -20,7 +20,7 @@ Type in:
 
 2. Create a "campaign_monitor" folder in fuel/modules/ and place the contents of the campaign_monitor module folder in there.
 
-3. Then to install, open up a Terminal window, "cd" to your FUEL CMS installation then type type in:
+3. Then to install, open up a Terminal window, "cd" to your FUEL CMS installation then type in:
 ``php index.php fuel/installer/install campaign_monitor``
 
 ## UNINSTALL
