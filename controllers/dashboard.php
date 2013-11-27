@@ -18,8 +18,8 @@ class Dashboard extends Fuel_base_controller {
 		if (!is_ajax())
 		{
 			$vars['summaries'] = $this->fuel->campaign_monitor->render(TRUE);
-			$crumbs = array(lang('campaign_monitor_titlebar'));
-			$this->fuel->admin->set_titlebar($crumbs);
+			$crumbs = array('tools' => lang('section_tools'), lang('campaign_monitor_titlebar'));
+			$this->fuel->admin->set_titlebar($crumbs, 'ico_tools_campaign_monitor');
 			$this->fuel->admin->render('_admin/campaign_monitor', $vars, '', CAMPAIGN_MONITOR_FOLDER);
 		}
 		else
