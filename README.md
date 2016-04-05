@@ -8,7 +8,7 @@ to create a submodule:
 ### USING GIT
 1. Open up a Terminal window, "cd" to your FUEL CMS installation then type in: 
 Type in:
-``php index.php fuel/installer/add_git_submodule https://github.com/daylightstudio/FUEL-CMS-Google-Keywords-Module.git campaign_monitor``
+``php index.php fuel/installer/add_git_submodule https://github.com/daylightstudio/FUEL-CMS-Campaign-Monitor-Module.git campaign_monitor``
 
 2. Then to install, type in:
 ``php index.php fuel/installer/install campaign_monitor``
@@ -40,7 +40,7 @@ To access the documentation, you can visit it [here](http://docs.getfuelcms.com/
 * David McReynolds, Daylight Studio, Main Developer
 
 ## BUGS
-To file a bug report, go to the [issues](https://github.com/daylightstudio/FUEL-CMS-Google-Keywords-Module/issues) page.
+To file a bug report, go to the [issues](https://github.com/daylightstudio/FUEL-CMS-Campaign-Monitor-Module/issues) page.
 
 ## LICENSE
 The campaign_monitor Module for FUEL CMS is licensed under [APACHE 2](http://www.apache.org/licenses/LICENSE-2.0).
